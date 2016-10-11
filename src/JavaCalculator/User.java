@@ -1,8 +1,6 @@
 package JavaCalculator;
 
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -21,7 +19,7 @@ public class User {
 
 
 
-    public static void calWelcome() {
+    public static void calWelcome() throws IOException {
         int commandInput;
         System.out.println("Welcome to Java Calculator. Please enter your name now: ");
         Scanner welInput = new Scanner(System.in);
@@ -36,11 +34,14 @@ public class User {
         } else if (commandInput == 3) {
             System.out.println("Help");
         } else if (commandInput == 4) {
-            System.out.println("Thank you for evaluating arithmetic with Java Calculator. Good-bye.");
+            while(true) {
+                System.out.println("Thank you for evaluating arithmetic with Java Calculator. Good-bye.");
+                break;
+            }
         }
     }
 
-    public static void calculator() {
+    public static void calculator() throws IOException {
 
         Scanner calStart = new Scanner(System.in);
 

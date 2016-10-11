@@ -18,7 +18,7 @@ public class CalculatorBones extends User{
         super(n);
     }
 
-    public static void CalFunction() {
+    public static void CalFunction() throws IOException {
 
         while (true)
 
@@ -50,7 +50,9 @@ public class CalculatorBones extends User{
                 }
             } catch (InputMismatchException ie) {
                 System.out.println("You have exited the program or entered an error. Please come again.");
-                calculator();
+                System.out.println("BOOYAHH");
+                calWelcome();
+                break;
             }
         }
     }

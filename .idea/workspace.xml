@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbc6151d-3643-4ab8-b8e7-0e1098cba4a3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectWeek_2/JavaCalculator/CalculatorBones.class" afterPath="$PROJECT_DIR$/out/production/ProjectWeek_2/JavaCalculator/CalculatorBones.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectWeek_2/JavaCalculator/CalculatorHistory.class" afterPath="$PROJECT_DIR$/out/production/ProjectWeek_2/JavaCalculator/CalculatorHistory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ProjectWeek_2/JavaCalculator/User.class" afterPath="$PROJECT_DIR$/out/production/ProjectWeek_2/JavaCalculator/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calculations.txt" afterPath="$PROJECT_DIR$/Calculations.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaCalculator/CalculatorBones.java" afterPath="$PROJECT_DIR$/src/JavaCalculator/CalculatorBones.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaCalculator/CalculatorHistory.java" afterPath="$PROJECT_DIR$/src/JavaCalculator/CalculatorHistory.java" />
@@ -29,8 +33,8 @@
       <file leaf-file-name="Skin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaCalculator/Skin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -39,8 +43,8 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JavaCalculator/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+            <state relative-caret-position="-500">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +55,20 @@
       <file leaf-file-name="CalculatorHistory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaCalculator/CalculatorHistory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
+            <state relative-caret-position="138">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TipCal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/JavaCalculator/TipCal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,30 +79,8 @@
       <file leaf-file-name="CalculatorBones.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JavaCalculator/CalculatorBones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Calculations.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Calculations.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TipCal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/JavaCalculator/TipCal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="71">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,10 +110,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/JavaCalculator/User" />
         <option value="$PROJECT_DIR$/src/JavaCalculator/Bones.java" />
-        <option value="$PROJECT_DIR$/src/JavaCalculator/Skin.java" />
         <option value="$PROJECT_DIR$/src/JavaCalculator/TipCal.java" />
-        <option value="$PROJECT_DIR$/src/JavaCalculator/CalculatorHistory.java" />
         <option value="$PROJECT_DIR$/Calculations.txt" />
+        <option value="$PROJECT_DIR$/src/JavaCalculator/Skin.java" />
+        <option value="$PROJECT_DIR$/src/JavaCalculator/CalculatorHistory.java" />
         <option value="$PROJECT_DIR$/src/JavaCalculator/User.java" />
         <option value="$PROJECT_DIR$/src/JavaCalculator/CalculatorBones.java" />
       </list>
@@ -537,6 +531,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Calculations.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCalculator/TipCal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -547,25 +549,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calculations.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/JavaCalculator/Skin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCalculator/CalculatorHistory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
+        <state relative-caret-position="138">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -575,18 +561,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCalculator/CalculatorBones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="71">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaCalculator/Skin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/JavaCalculator/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        <state relative-caret-position="-500">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

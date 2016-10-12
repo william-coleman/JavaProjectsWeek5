@@ -25,6 +25,7 @@ public class CalculatorHistory  extends User  {
         int hisMenu;
         System.out.println("Welcome to Java Calculator History. Please select your next operation." + "\n" + "1. Display previously worked equations." + "\n" + "2. Remove history.");
         hisMenu = hisInput.nextInt();
+        while(true){
         if (hisMenu == 1) {
             for (int i = 0; i < calculations.size(); ++i) {
                 calFile.println(calculations.get(i));
@@ -33,6 +34,8 @@ public class CalculatorHistory  extends User  {
             calFile.close();
             System.out.println(calculations);
             calculator();
+            break;
+        }
         }
     }
 

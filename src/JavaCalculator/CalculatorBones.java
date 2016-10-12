@@ -1,7 +1,6 @@
 package JavaCalculator;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -24,7 +23,7 @@ public class CalculatorBones extends User{
 
         {
 
-            try {
+//            try {
                 System.out.println("Enter your equation or enter Exit to close calculator.");
                 num1 = calInput.nextDouble();
                 operator = calInput.next();
@@ -46,14 +45,14 @@ public class CalculatorBones extends User{
                     calculations.add(num1 + " " + operator + " " + num2 + " ");
                     System.out.println(num1 * num2);
                 } else {
-                    calculator();
+                    CalFunction();
+                    break;
                 }
-            } catch (InputMismatchException ie) {
-                System.out.println("You have exited the program or entered an error. Please come again.");
-                System.out.println("BOOYAHH");
-                calWelcome();
-                break;
-            }
+//            } catch (InputMismatchException ie) {
+//                System.out.println("You have exited the program or entered an error. Please come again.");
+//                calculator();
+//                break;
+//            e
         }
     }
 }

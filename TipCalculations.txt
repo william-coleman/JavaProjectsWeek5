@@ -1,0 +1,2 @@
+Your bill is: $116.0 each.
+Your tip is: $81.0
